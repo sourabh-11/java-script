@@ -1,0 +1,75 @@
+// let a  = new Promise((resolve, reject)=>{
+
+//    setTimeout(() => {
+//       console.log("2 second");
+//       resolve(34)
+//    }, 2000);
+// }
+// )
+// a.then((value)=>
+// {
+//    console.log(value);
+//    let p2 = new Promise((resolve,reject)=>
+//    {
+//       console.log("done");
+//    })
+//    return p2
+// })
+// p2.then(()=>
+// {
+//    console.log("foine");
+// },return p2)
+// async function harry() {
+//    let wedeh = new Promise((resolve, reject) => {
+//       setTimeout(() => {
+//          resolve("23 deg")
+
+//       }, 1000);
+//    })
+//    let wedban = new Promise((resolve, reject) => {
+//       setTimeout(() => {
+//          resolve("21 deg")
+
+//       }, 4000);
+//    })
+//    // wedeh.then(alert);
+//    // wedban.then(alert);
+//    console.log("find")
+//    let a = await wedban
+//    console.log("wedban")
+
+//    let b = await wedeh
+//    console.log("fidonend")
+
+//    return [a, b]
+// }
+// harry();
+// let ab = harry();
+// console.log(ab);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
