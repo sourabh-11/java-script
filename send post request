@@ -1,0 +1,28 @@
+const  createToDO =async(todo) =>{
+
+let options =  {
+    method: "POST",
+    headers: {
+        "Content-type": "application/json"
+    },
+    body: JSON.stringify({
+        title: 'sourabh',
+        body: 'bhai',
+        userId: 111,
+    }),
+
+}
+ 
+let p =await fetch('https://jsonplaceholder.typicode.com/posts',options)
+    let response  =await p.json()
+     return response
+ }
+const mainFun =async() =>{
+    let todo  ={
+    title: 'sourab22h',
+    body: 'bhai2',
+    userId: 222, 
+}
+  
+}
+mainFun();
