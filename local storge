@@ -1,0 +1,10 @@
+let key = prompt("enter the key ")
+let valu = prompt("enter the valu ")
+localStorage.setItem(key,valu)
+console.log(`the key is ${key} and valu is ${valu} ${localStorage.setItem}`);
+localStorage.clear();
+console.log(localStorage.length
+    );
+
+
+
