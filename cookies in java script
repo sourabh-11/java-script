@@ -1,0 +1,9 @@
+console.log(document.cookie)
+document.cookie  = "name = sourabh"
+document.cookie  = "name1= sourabh"
+document.cookie  = "name1= sourabhbhai"
+console.log(document.cookie)
+ let key = prompt("enter the key ")
+ let valu = prompt("enter the valu ")
+document.cookie =`${decodeURIComponent(key)} = ${decodeURIComponent (valu)}`
+console.log(document.cookie);
